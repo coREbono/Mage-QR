@@ -1,4 +1,6 @@
 <script context="module">
+	import logo from "../assets/Mage-qr.svg";
+
 	let dialog;
 
 	export function showAbout() {
@@ -14,7 +16,7 @@
 <dialog bind:this={dialog}>
 	<article>
 		<h1>{$_("about_mage_qr")}</h1>
-		<img src="../public/Mage-qr.svg" alt="Mage-QR logo" />
+		<img src={logo} alt="Mage-QR logo" />
 		<p><b>Mage-QR</b> is the powerful QR reader/maker.</p>
 		<h2>Features</h2>
 		<ul>

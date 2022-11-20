@@ -1,6 +1,10 @@
+<script>
+	import logo from "../assets/Mage-qr.svg";
+</script>
+
 <h1>
 	<a href="/">
-		<img src="../public/Mage-qr.svg" alt="Mage-QR" />
+		<img src={logo} alt="Mage-QR" />
 	</a>
 </h1>
 
