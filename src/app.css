@@ -53,6 +53,7 @@
 	--quaternary-border: hsl(60, 90%, 20%);
 }
 
+html,
 body,
 #app {
 	margin: 0;

@@ -66,6 +66,7 @@
 	.content {
 		grid-row: 2/3;
 		grid-column: 2/3;
+		position: relative;
 	}
 
 	@media screen and (min-width: 43rem) {

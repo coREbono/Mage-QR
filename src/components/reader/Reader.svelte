@@ -70,6 +70,8 @@
 
 <style>
 	main {
+		position: absolute;
+
 		display: flex;
 		flex-direction: column;
 		width: 100%;
