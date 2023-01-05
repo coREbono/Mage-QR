@@ -22,7 +22,7 @@
 	</div>
 
 	<div class="switcher">
-		<Switcher bind:mode />
+		<Switcher bind:mode={mode} />
 	</div>
 
 	<!--content-->

@@ -63,9 +63,11 @@
 		</div>
 	{/if}
 
-	<FromClipboard bind:result bind:scanFromClipboard />
-	<FromInput bind:result />
-	<FromCamera bind:result />
+	<FromClipboard
+		bind:result={result}
+		bind:scanFromClipboard={scanFromClipboard} />
+	<FromInput bind:result={result} />
+	<FromCamera bind:result={result} />
 </main>
 
 <style>
