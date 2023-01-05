@@ -1,5 +1,5 @@
 <script context="module">
-	import logo from "../assets/Mage-qr.svg";
+	import logo from "/Mage-qr.svg";
 
 	let dialog;
 
