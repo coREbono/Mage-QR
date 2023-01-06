@@ -77,6 +77,8 @@
 		margin: 0;
 		padding: 0;
 		background-color: black;
+		min-height: 100vh;
+		min-height: 100dvh;
 	}
 
 	dialog video {
